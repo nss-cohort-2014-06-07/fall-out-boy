@@ -1,0 +1,30 @@
+{
+  "name": "fall-out-boy",
+  "version": "0.0.0",
+  "description": "Fall Out Boy Fan Site",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nss-cohort-2014-06-07/fall-out-boy"
+  },
+  "author": "Chyld Medford <chyld.medford@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nss-cohort-2014-06-07/fall-out-boy/issues"
+  },
+  "homepage": "https://github.com/nss-cohort-2014-06-07/fall-out-boy",
+  "dependencies": {
+    "ejs": "^1.0.0",
+    "express": "^4.7.2",
+    "morgan": "^1.2.2"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "jshint-stylish": "^0.4.0"
+  }
+}

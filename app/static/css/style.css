@@ -1,0 +1,49 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  border: 10px double black;
+}
+
+header{
+  height: 200px;
+  background-image: url(/images/fob.jpg);
+  background-size: cover;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+section{
+  padding: 10px;
+}
+
+#container{
+  width: 700px;
+  margin: 0px auto;
+}
+
+#main{
+  border: 1px solid red;
+  width: 700px;
+}
+
+.date{
+  font-size: 11px;
+  color: red;
+}
+
+.location{
+  color: green;
+}
+
+footer{
+  padding: 10px;
+}
+
