@@ -26,7 +26,7 @@ app.get('/tours', function(req, res){
   res.render('tours');
 });
 
-app.listen(4000, function(){
-  console.log('Fall Out Boy is playing!');
+app.listen(process.env.PORT, function(){
+  console.log('Fall Out Boy is playing, on Port', process.env.PORT);
 });
 
